@@ -1,0 +1,21 @@
+{
+  "name": "testcafe-demo",
+  "version": "1.0.0",
+  "description": "Demo about TestCafe to practice E2E Automation with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "keywords": [
+    "test-cafe",
+    "javascript",
+    "testing",
+    "automation",
+    "sdet"
+  ],
+  "author": "Dalbavera",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.15.0"
+  }
+}
