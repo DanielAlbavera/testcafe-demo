@@ -1,5 +1,10 @@
 {
     "example": {
-        "name" : "Dalbavera"
+        "name" : "Dalbavera",
+        "auto-populated-name": "Peter Parker",
+        "os" : "Linux",
+        "interface" : "Both",
+        "comment" : "Thanks for creaing this automaition framework with my favorite language + my favorite drink",
+        "slider-test": 8 
     }
 }

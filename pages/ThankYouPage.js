@@ -1,8 +1,15 @@
-import { Selector } from 'testcafe';
+import { Selector, t } from 'testcafe';
 
 class ThankYouPage {
 
-    get thankYouLabel () { return Selector('#article-header') };
+    constructor() {
+        this.thankYouLabel = Selector('#article-header');
+    }
+
+    async assertSubmission(name) {
+        await t.expect(this.thankYouLabel.exists).eql(true);
+        await t.expect(this.thankYouLabel.innerText).contains(name);
+    }
 
 }
 
